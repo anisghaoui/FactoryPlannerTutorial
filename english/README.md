@@ -28,11 +28,11 @@ In-game, to open the mod's interface you can:
 -Press the (default) shortcut "*ctrl+r*" 
 -Click on the FP button in your toolbar
 
-[in game](figure/in_game.png)
+[in game](figure/in_game.png?raw=true)
 
 You are faced with the main interface as shown in the figure below.
 
-[in game interface](figure/main_interface.png)
+[in game interface](figure/main_interface.png?raw=true)
 
 *note*: if the interface is to big, press "*esc*" twice, then "*settings*", "*mod settings*", "*per player*" : reduce the width and height then confirm. Ignore everything else for now.
 
@@ -53,21 +53,21 @@ Now that you are familiar with this view, let's use it!
 ## Basic example:
 So, let's say that we need to produce some "*iron gear wheels*". First thing we will press on the only green button that is on the interface. You will be asked to input at least a name or an icon and confirm. You will notice that a new element in the red area appeared. It is a new sub-factory! Click on it and you start editing what that sub-factory does.
 
-[gears](figure_interface/gears.png)
+[gears](figure_interface/gears.png?raw=true)
 
 We want to produce "*iron gear wheels*". So it is a product. Let's click on the "*plus*" below the products and search for the desired item as in figure (gears_selected). and let's produce "*15*" of them.
 
-[selected gears recipe](figure_interface/gears_selected.png)
+[selected gears recipe](figure_interface/gears_selected.png?raw=true)
 
 You might be wondering: "*15 what?*". It is *15 items/whatever timescale* is selected in the blue area. In this case, you can see it is 15 *items/min*. Confirm.
 
 Click on the iron gear wheel product to set a recipe for it. It will automatically add a new row in the green area and the required ingredients (in this case "*iron*").
 
-[gears recipe](figure_interface/gears_recipe.png)
+[gears recipe](figure_interface/gears_recipe.png?raw=true)
 
 Something is wrong... It is showing 0.0 "*iron plates*" and 0.0 "*iron green wheel*". This where you may want to set the disàplayed amount/timescale to your desire. As shown in the figure below, you can select one display modes and timescale:
 
-[modified gears](figure_interface/gears_modified.png)
+[modified gears](figure_interface/gears_modified.png?raw=true)
 
 ### Timescales: 
 They allow you to scale your production by time. If you want to produce 15 "*iron gear wheels*" per minute and would want how does that scale to an hour or second in game, you just press the buttons (1). FP will automatically recompute the new values and update everything seemelessly.
@@ -103,7 +103,7 @@ You can click on ingredients to set them as a new recipe. This will create a new
 
 We want to know how many mines we need. Let's decompose all the recipe until we reach the ores! The result should be as displayed in the figure below.
 
-[unrolled recipe](figure_interface/recipe_unroll.png)
+[unrolled recipe](figure_interface/recipe_unroll.png?raw=true)
 
 
 First thing, **congratulations**! you have done it! you made it! your very first recipe on Factory Planner. ps: it is automatically saved
@@ -113,11 +113,11 @@ First thing, **congratulations**! you have done it! you made it! your very first
 FP offers a very powerful tool: the sub-levels. See how we selected a way to make iron gear wheels? let's create a red science production of 15 items/second with blue machine and yellow belts.
 
 The result should be as below :
-[red science](basic_recipe/red_science.png)
+[red science](basic_recipe/red_science.png?raw=true)
 
 Warning: "*OH NO, I got this huge error! what do I do?*"
 Answer: "*simply press cancel, then ctrl click the last row's recipe*"
-[red science](basic_recipe/dependence.png)
+[red science](basic_recipe/dependence.png?raw=true)
 
 Now that you have red science, next step green, gray, blue, purple then yellow. Ohh that a lot! it will result in a horror that I can't even printscreen. Here is the exchange string instead:
 
@@ -137,7 +137,7 @@ You may have noticed that it gets really clumsy when having recipes that consume
 
 Let's try to produce a lot of "*lubricant*". Oil recipes have usually feedback loops, meaning a fraction of the output in sent back to the input. This is where the algebric solver (the one we have been using until now) is limited. Create a new lubricant recipe. you should obtain the following :
 
-[lubricant](matrix_solver/lubricant.png)
+[lubricant](matrix_solver/lubricant.png?raw=true)
 
 sigh... there are 2 by products. I wish I could turn them into plastic and rocket fuel. Trying to click on the said byproducts will have FP display a red message. The default solver is indeed unable to solve this. **Dare** and toggle on the "*matrix solver*".
 
